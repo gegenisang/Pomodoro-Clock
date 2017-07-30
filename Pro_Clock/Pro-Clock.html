@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pomodoro Clock</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Pro-Clock.css">
+    <link rel="stylesheet" type="text/css" href="font/css/font-awesome.css">
+</head>
+
+<body>
+    
+        <h1>Free Code Camp</h1>
+        <h3>Pomodoro Clock</h3>
+        <audio id="audio" src="http://codingtutorials360.com/14244764.mp3" type="audio/mpeg"></audio>
+        <div class="setTimer">
+            <div class="session">
+               <p>Session Length</p>
+               <div id="sessionDiv" >
+                  <button id="minusSession">-</button>
+                  <span id="sessionNum">10</span>
+                  <button class="adject" id="plusSession">+</button>
+               </div>
+            </div>
+            <div class="break">
+                <p>Break Length</p>
+                <div id="breakDiv">
+                  <button id="minusBreak">-</button>
+                  <span id="breakNum">5</span>
+                  <button id="plusBreak">+</button>
+                </div>
+            </div>
+        </div>
+        <div id="btn" class="text-center">
+           <input type="button" value="Start" id="start">
+        </div>
+        <div id="clock">
+            <p class="title">Sesstion</p>
+            <p class="timer">10</p>
+        </div>
+  
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="Pro-Clock.js"></script>
+</body>
+
+</html>
